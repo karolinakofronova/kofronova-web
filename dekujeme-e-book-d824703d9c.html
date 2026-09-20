@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Děkuju — e-book ke stažení</title>
+<meta name="description" content="Stažení e-booku Síla přirozeného naslouchání.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="preload" href="assets/fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/worksans-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <img src="assets/logo-circle.png" alt="Karolína Kofroňová – logo">
+      <span>
+        <span class="brand-name">Karolína Kofroňová</span>
+        <span class="brand-tagline">Hluboké naslouchání &amp; 3P</span>
+      </span>
+    </a>
+    <button class="nav-toggle" aria-label="Otevřít menu" onclick="document.querySelector('.main-nav').classList.toggle('open')">☰</button>
+    <nav class="main-nav">
+      <a href="index.html">Úvod</a>
+      <a href="o-mne.html">O mně</a>
+      <a href="program-stesti.html">Řekni svému štěstí ANO</a>
+      <a href="e-book.html">E-book zdarma</a>
+      <a href="o-mne.html#kontakt">Kontakt</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" style="padding-bottom:60px;">
+  <div class="wrap" style="max-width:720px;">
+    <span class="eyebrow">Hotovo</span>
+    <h1>E-book je tady</h1>
+    <p class="lede">Děkuju, že sis ho vyžádal/a. Můžeš si ho stáhnout hned.</p>
+    <div class="btn-row">
+      <a class="btn btn-accent" href="assets/stazeni/sila-naslouchani-d824703d9c.pdf" download="Sila-prirozeneho-naslouchani.pdf">Stáhnout e-book (PDF)</a>
+    </div>
+    <p style="margin-top:22px; font-size:0.9rem; color:var(--ink-soft);">Kdyby se stahování nezdařilo, napiš mi na <a href="mailto:kajakofra@gmail.com">kajakofra@gmail.com</a> a pošlu ti ho e-mailem.</p>
+  </div>
+</section>
+<section class="alt">
+  <div class="wrap" style="max-width:640px; text-align:center;">
+    <h2>Co dál?</h2>
+    <p>Jestli tě hluboké naslouchání zaujalo, můžeš ho zažít v šestitýdenním online programu.</p>
+    <div class="btn-row" style="justify-content:center;">
+      <a class="btn btn-primary" href="program-stesti.html">Řekni svému štěstí ANO</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="year"></span> Karolína Kofroňová</span>
+    <span><a href="mailto:kajakofra@gmail.com">kajakofra@gmail.com</a> · <a href="tel:+420604182941">+420 604 182 941</a></span>
+    <span class="footer-legal"><a href="obchodni-podminky.html">Obchodní podmínky</a> · <a href="ochrana-udaju.html">Ochrana osobních údajů</a></span>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

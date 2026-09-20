@@ -429,3 +429,13 @@ footer a { color: var(--primary-dark); text-decoration: none; }
 .list-clean { list-style: none; padding: 0; margin: 0 0 1em; }
 .list-clean li { padding: 6px 0 6px 22px; position: relative; }
 .list-clean li::before { content: ""; position: absolute; left: 0; top: 0.95em; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }
+
+/* MailerLite form (e-book page) — restyled to match the site */
+.signup .ml-form-embedContainer .ml-form-embedWrapper { background: transparent !important; box-shadow: none !important; border: 0 !important; padding: 0 !important; }
+.signup .ml-form-embedContainer .ml-form-embedBody { padding: 0 !important; }
+.signup .ml-form-embedContainer .ml-form-embedContent { display: none !important; }
+.signup .ml-form-embedContainer .ml-form-embedBody .ml-form-fieldRow { margin-bottom: 10px !important; }
+.signup .ml-form-embedContainer input.form-control { font-family: "Work Sans", sans-serif !important; font-size: 16px !important; color: var(--ink) !important; background: #fff !important; border: 1px solid var(--line) !important; border-radius: 12px !important; padding: 12px 14px !important; height: auto !important; }
+.signup .ml-form-embedContainer .ml-form-checkboxRow .label-description, .signup .ml-form-embedContainer .ml-form-checkboxRow .label-description p { font-family: "Work Sans", sans-serif !important; font-size: 0.8rem !important; line-height: 1.5 !important; color: var(--ink-soft) !important; }
+#mlb2-46131190.ml-form-embedContainer.ml-subscribe-form .ml-form-embedWrapper.embedForm .ml-form-embedBody .ml-form-embedSubmit button.primary { font-family: "Work Sans", sans-serif !important; font-size: 0.98rem !important; font-weight: 600 !important; background-color: var(--accent) !important; color: #fff !important; border: 0 !important; border-radius: 999px !important; padding: 14px 28px !important; height: auto !important; }
+#mlb2-46131190.ml-form-embedContainer.ml-subscribe-form .ml-form-embedWrapper.embedForm .ml-form-embedBody .ml-form-embedSubmit button.primary:hover { background-color: #a96a3f !important; }
